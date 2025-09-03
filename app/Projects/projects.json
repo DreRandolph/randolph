@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "name": "Student Placement Research EDA Notebook",
+      "description": "My Exploratory Data Analysis (EDA) notebook for a Student Placement Research project. It includes data cleaning, visualization, and insights.",
+      "url": "https://github.com/voyddful/Placement-Research-EDA-Notebook",
+      "img": "/SBX.png"
+    },
+    {
+      "name": "Voyddfolio",
+      "description": "A business-portfolio website showcasing Voyddfolio's projects and skills.",
+      "url": "https://voyddfolio.vercel.app/",
+      "img": "/Voyddfolio.png"
+    },
+    {
+      "name": "Original Voyddfolio",
+      "description": "The original version of Voyddfolio, a personal portfolio website.",
+      "url": "https://portfolio-ten-lemon-14.vercel.app/",
+      "img": "/VoyddfolioOrg.png"
+    },
+    {
+      "name": "Everchanging Essence",
+      "description": "A Ecommerce website for my Aunt's Spiritual Shop.",
+      "url": "https://everchangingv3.vercel.app/",
+      "img": "/Everchanging.png"
+    },
+    {
+      "name": "Health and Prosperity",
+      "description": "A personal blog website about health and prosperity. It includes recipies for food and drinks.",
+      "url": "https://healthandprosperity.vercel.app/",
+      "img": "/Herbal.png"
+    },
+    {
+      "name": "Prosperous Health",
+      "description": "A personal blog website about health and prosperity. It includes recipies for food and drinks. a reimagined version of Health and Prosperity.",
+      "url": "https://prosperoushealth.vercel.app/",
+      "img": "/Healing.png"
+    },
+    {
+      "name": "Blossoms and Bliss",
+      "description": "A invite site for a sercret engagement party and proposal.",
+      "url": "https://blossomsandbliss.vercel.app/",
+      "img": "/BlossomsandBliss.png"
+    }
+  ]
+}
