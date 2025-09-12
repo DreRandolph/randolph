@@ -1,7 +1,6 @@
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/navbar.jsx'
-import { AnimatePresence, animatePresence } from 'motion/react'
 import { Footerr } from '@/components/footer'
 
 const geistSans = Geist({
