@@ -1,4 +1,5 @@
 import DownloadBtn from '@/components/downloadBtn'
+import Link from 'next/link'
 import Image from 'next/image'
 
 export default function home() {
@@ -13,19 +14,29 @@ export default function home() {
           height={600}
           alt="yea"
         />
-        <div className="bg-[#0b3746] border-2 w-full p-12 m-4 rounded-lg text-white">
-          <h1 className="text-6xl font-bold">De&apos;Andre Randolph</h1>
-          <p className="text-lg text-amber-300">Certified Web developer</p>
-          <p className="mt-3 lg:text-2xl">
+        <section className="flex flex-col w-11/12 lg:w-7xl items-center border-2 justify-center my-6 lg:my-10 py-10 px-4 bg-gray-800 text-white rounded-lg shadow-lg">
+          <h2 className="text-4xl font-bold mb-6">About Me</h2>
+          <p className="text-lg max-w-4xl text-center">
             My name is De&apos;Andre Randolph, and I am a software engineering
-            college student at Morehouse. I have been certified by CIW in high
-            school, where I learned the fundamentals of web development,
-            including HTML, CSS, and JavaScript. I have also gained experience
+            college student at Morehouse College. I am a certified CIW Site
+            Associate, a certification I earned in high school. I learned the
+            fundamentals of web development, including HTML, CSS, and
+            JavaScript, during that time as well. I have also gained experience
             in building responsive and interactive web applications using modern
-            frameworks and libraries.
+            frameworks and libraries such as React, TailwindCSS, Next, and more.
+            Additionally, I am progressing my knowledge in software engineering,
+            learning data science and economics, and plan on becoming a business
+            owner in the near future.
+          </p>
+          <p className="text-lg pb-5 max-w-4xl text-center mt-4">
+            I am extremely passionate about web development and enjoy creating
+            user-friendly and visually appealing websites. I am always eager to
+            learn new technologies and improve my skills. I believe that web
+            development is a powerful tool for communication and creativity, and
+            I am excited to continue my journey in this field.
           </p>
           <DownloadBtn />
-        </div>
+        </section>
       </main>
     </div>
   )
